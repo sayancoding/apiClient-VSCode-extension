@@ -1,8 +1,26 @@
 {
 	"name": "apiClient",
-	"displayName": "apiClient",
-	"description": "test to api",
-	"version": "0.0.1",
+	"displayName": "API Client",
+	"description": "Test your api call inside VSCode",
+	"version": "1.0.0",
+	"publisher": "SayanMaity",
+	"author": {
+		"name": "Sayan Maity"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sayancoding/apiClient-VSCode-extension"
+	},
+	"bugs": {
+		"url": "https://github.com/sayancoding/apiClient-VSCode-extension/issues"
+	},
+	"icon": "api.png",
+	"keywords": [
+		"RESTAPI",
+		"apiClient",
+		"test-api",
+		"development"
+	],
 	"engines": {
 		"vscode": "^1.52.0"
 	},

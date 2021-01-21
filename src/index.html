@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>api-Client 🛰</h1>
+    <div class="input_area">
+        <input type="text" class="url_box" placeholder="..paste URL here">
+        <div class="btn_group">
+            <button class="btn_get">GET</button>
+            <button class="btn_post">POST</button>
+            <button class="btn_update">UPDATE</button>
+            <button class="btn_delete">DELETE</button>
+        </div>
+        <div class="check_box">
+            <input type="checkbox" name="body-parser" value="true" id="body-parser">
+            <label for="body-parser">body-parse-JSON(application/json)</label>
+        </div>
+        <div class="body_parser_input">
+            <textarea name="" id="body-parser-data" cols="80" rows="16"></textarea>
+        </div>
+    </div>
+    <h3 class="res_text">../response</h3>
+    <div class="response_area">
+        <p class="len"></p>
+        <pre class="response">
+        </pre>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

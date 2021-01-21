@@ -1,0 +1,64 @@
+*{
+    font-family: monospace;
+}
+.input_area{
+    margin: 4px 0;
+}
+.url_box{
+    width: 30rem;
+    height: 30px;
+    background: transparent;
+    padding: 2px 10px;
+    margin: 4px 0;
+    border: 1px solid rgb(251, 255, 9);
+    color: rgb(255, 218, 9);
+}
+.btn_group{
+    margin: 10px 0;
+}
+button{
+    padding: 4px 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.btn_get{
+    background-color: rgb(0, 182, 0);
+}
+.btn_post{
+    background-color: rgb(0, 73, 182);
+}
+.btn_update{
+    background-color: rgb(0, 182, 112);
+}
+.btn_delete{
+    background-color: rgb(182, 36, 0);
+}
+.check_box{
+    margin: 10px 0;
+}
+textarea{
+    background: transparent;
+    display: none;
+    border: 1px solid rgb(251, 255, 0);
+    color: rgb(77, 0, 177);
+    width: 100%;
+    font-size: 1.2rem;
+}
+.res_text{
+    margin-top: 20px;
+    color:  rgb(187, 190, 0);
+}
+.response_area{
+    /* width: 70rem; */
+    height: 320px;
+    overflow: scroll;
+    border: 1px solid rgb(251, 255, 9);
+    padding: 10px;
+}
+.len{
+    color: rgb(236, 161, 0);
+}
+pre{
+    font-weight: bold;
+}
